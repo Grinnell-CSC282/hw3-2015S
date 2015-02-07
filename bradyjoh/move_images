@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 mkdir images #make a directory to store .jpgs in
 
