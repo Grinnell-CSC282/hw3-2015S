@@ -1,5 +1,13 @@
 #!bin/bash
 
-mkdir images
+mkdir images #make a directory to store .jpgs in
 
-find . -name  "*.jpg" | mv {} -t images/
+find . -name  "*.jpg" -exec mv '{}'  ./images/ \;
+
+#find looks for filenames (unlike ls, which has parsing problems)
+# . says current directory, and -name "*.jpg" matches any file ending .jpg
+#-exec mv runs mv after finding each file
+# '{}' inserts the found filename to that position
+# ./images is just the directory for mv to move to
+# A delimited semicolon (comapred to a plus) runs mv after each find instead
+# of a total concatenated run at the end of the find. 
