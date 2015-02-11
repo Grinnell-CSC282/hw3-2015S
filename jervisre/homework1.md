@@ -5,6 +5,7 @@
   directory that end with .jpg and moves them to a directory called
   images. Put it in the repo.
 
+"
 #!/bin/bash
 
 
@@ -15,10 +16,11 @@ do
 	mv "$file" "./Images"
 
 done
+"
 
 - Part 3: Suppose I have a file called * in my directory.
   How do I remove? Suppose I have a file called -rf *, how do I delete it?
 
- rm -- *
- rm -- -rf\ *
+ - rm -- *
+ - rm -- -rf\ *
 
