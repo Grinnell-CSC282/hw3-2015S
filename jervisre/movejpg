@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+mkdir -p Images
+for file in ./*jpg
+do
+
+	mv "$file" "./Images"
+
+done
