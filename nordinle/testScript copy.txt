@@ -1,0 +1,25 @@
+Script started on Wed 11 Feb 2015 08:37:51 PM CST
+dijkstra$ echo This is a test
+This is a test
+dijkstra$ echo This is a test
+[C[C[C[C[C[C[C[C[C[C[Kecho This is a test
+[C[C[C[C[C[C[C[C[C[C[Kecho This is a test
+[C[C[C[C[C[C[C[C[C[Coops[Kecho This is a test
+[C[C[C[C[C[C[C[C[C[C[Kecho This is a test again
+This is a test again
+dijkstra$ ^C
+dijkstra$ ^C
+dijkstra$ ^C
+dijkstra$ ^C
+dijkstra$ 
+Display all 5372 possibilities? (y or n)
+dijkstra$ 
+Display all 5372 possibilities? (y or n)
+dijkstra$ =[Knope
+bash: nope: command not found
+dijkstra$    [K[K[K [Kexit
+
+Script done on Wed 11 Feb 2015 08:38:33 PM CST
+
+Use Wes’s test script because zsh makes a lot more of a mess than bash
+https://github.com/Grinnell-CSC282/hw3-2015S/blob/master/pollockj/typescript

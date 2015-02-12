@@ -1,0 +1,5 @@
+# http://stackoverflow.com/questions/11336715
+# /copy-files-across-directories-using-terminal-in-mac
+
+mkdir images
+cp -R ./*.jpg images/
