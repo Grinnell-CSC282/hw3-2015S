@@ -1,0 +1,32 @@
+/* #!/bin/bash */
+
+/* # Program to print a text file with headers and footers */
+
+/* TEMP_FILE=/tmp/printfile.txt */
+
+/* function clean_up { */
+
+/* 	# Perform program exit housekeeping */
+/* 	rm $TEMP_FILE */
+/* 	exit */
+/* } */
+
+/* trap clean_up SIGHUP SIGINT SIGTERM */
+
+/* pr $1 > $TEMP_FILE */
+
+/* echo -n "Print file? [y/n]: " */
+/* read */
+/* if [ "$REPLY" = "y" ]; then */
+/* 	lpr $TEMP_FILE */
+/* fi */
+/* clean_up */
+
+#!/bin/bash
+echo "hello"
+   /*if [ $# != 2 ]; then
+echo "Syntax: script_cleanup <input> <output>"
+exit
+fi
+col -bp < $1 >> $2
+exit*/
