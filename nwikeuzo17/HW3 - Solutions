@@ -1,0 +1,15 @@
+Part 0: Create a directory for yourself in the repo.
+
+Part 1: Write a program that cleans up after script. Put it in the
+repo. (I'd recommend using C, but it's up to you.)
+
+Part 2: Write a bash script that finds all of the files under the current directory that end with .jpg and moves them to a directory called images. Put it in the repo.
+Solution: find . -name "*.jpg" -exec mv {} /mydir \;
+Source: http://www.linuxquestions.org/questions/linux-newbie-8/how-to-tell-bash-to-move-files-to-another-folder-288830/
+
+Part 3: Suppose I have a file called * in my directory. How do I remove. Suppose I have a file called -rf *, how do I delete it?
+Solutions:
+rm ./-*
+rm -- -rf
+Sources: http://unix.stackexchange.com/questions/28701/accidently-created-a-file-called-x-how-can-i-delete-it
+http://superuser.com/questions/196236/what-command-do-i-need-to-use-to-remove-a-file-called-rf

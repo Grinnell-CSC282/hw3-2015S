@@ -1,2 +1,0 @@
-find . -name "*.jpg" -exec mv {} /mydir \;
-Source: http://www.linuxquestions.org/questions/linux-newbie-8/how-to-tell-bash-to-move-files-to-another-folder-288830/
