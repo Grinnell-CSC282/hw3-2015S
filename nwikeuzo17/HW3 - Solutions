@@ -2,6 +2,9 @@ Part 0: Create a directory for yourself in the repo.
 
 Part 1: Write a program that cleans up after script. Put it in the
 repo. (I'd recommend using C, but it's up to you.)
+The Unix tr command can be used. It has the syntax:
+tr -cd '\11\12\15\40-\176' < file-with-binary-chars > clean-file
+Source: http://alvinalexander.com/blog/post/linux-unix/how-remove-non-printable-ascii-characters-file-unix
 
 Part 2: Write a bash script that finds all of the files under the current directory that end with .jpg and moves them to a directory called images. Put it in the repo.
 Solution: find . -name "*.jpg" -exec mv {} /mydir \;
