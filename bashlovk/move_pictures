@@ -1,0 +1,7 @@
+
+
+find . -name "*.jp*g" -print0 | xargs -0 -I {} cp {} ./Images
+
+Sources:
+http://content.hccfl.edu/pollock/Unix/FindCmd.htm
+http://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/
